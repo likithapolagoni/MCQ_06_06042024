@@ -1,0 +1,122 @@
+1. What is the component used for compiling, debugging, and executing java programs?
+
+     A.JDK
+
+     B.JVM
+
+     C.JRE
+
+     D.JIT
+
+Answer : A
+
+2. Which of the following are valid array declarations?
+
+1) int myArray1[5];
+
+2) int myArray2[];
+
+3) int myArray3[]=new int[5];
+
+4) int myArray4[5]=new int[5];
+
+5) int []myArray5=new int[5];
+
+6) int myArray6[]=new int[];
+
+7) int myArray7[]=null;
+
+
+    A. 1, 2, 3, 6
+
+    B. 2, 4, 5, 7
+
+    C. 2, 3, 5, 7
+
+    D. 3, 4, 5, 7
+
+Answer : D
+
+3. Which of the following are overloaded methods?
+
+   a.public void add(int a, int b) { }
+
+   public void add (float a, float b, float c) { }
+
+   b. public int add(int a, int b, int c) {}
+
+   public float add(int a, int b, int c) {}
+
+   c. public float add(float a, int b) { }
+
+   public float add(int a, float b) { }
+     
+     A.Only a
+
+     B.Only a and c
+
+     C.All a, b and c
+
+     D.Only a and b
+
+Answer : B
+
+4.Consider the Account class. Which of the following statement is true after executing Line 1? 
+ 
+class Account {
+
+double balance;
+
+public static void main(String args[]) {
+
+Account account1=null;
+
+Account account2=null;
+
+account1=new Account();
+
+account2=new Account();
+
+account2=account1;
+
+account1=new Account();
+
+System.out.println(account1.balance);
+
+}
+
+}
+
+    A. account1 and account2 are pointing to the same object
+
+    B. account1 and account2 are pointing to different objects
+
+    C. account1 is pointing to two different objects at the same time
+
+    D. account2 is pointing to two different objects at the same time
+
+Answer : B
+
+5. What will be the output of the below code?
+
+public class Tester {
+
+public static void main(String args[]) { 
+String s1= "abc"; 
+String s2= new String("abc"); 
+System.out.println(s1.equals(s2)); 
+System.out.println(s1 == 2);
+
+}
+
+}
+  
+    A. true false
+
+    B. false true
+
+    C. true true
+
+    D. false false
+
+Answer : A
